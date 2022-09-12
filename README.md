@@ -1,16 +1,15 @@
 # flutter_mymap
 
-A new Flutter project.
+Flutter Map
 
-## Getting Started
+## Func Cek Lokasi Tersimpan
 
-This project is a starting point for a Flutter application.
+![](images/1.JPG)
 
-A few resources to get you started if this is your first Flutter project:
+Jika ada latlong tersimpan di sharepreference maka akan ditampilkan. jika belum ada nanti akan di tampilkan lokasi default yang tertera pada kondisi else.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Menampilkan Map dan set lokasi
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![](images/2.JPG)
+
+pada onpick akan menyimpan latlong value kedalam sharepreference dan mengganti variable lokasi saat ini. serta menampilkan snackbar.
